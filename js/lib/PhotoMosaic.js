@@ -1,7 +1,7 @@
 /*  ===================
     PhotoMosaic - JS
     By @SuperIRis
-    Last updated 15-04-2014
+    Last updated 22-04-2014
     =================== */
 ;
 'use strict';
@@ -298,7 +298,6 @@ PhotoMosaic.prototype.finalSetup = function(){
 PhotoMosaic.prototype.updateItem = function(index, photoURL){
 	//change item at index square
 	var _this = this,
-		boundaries,
 		newImage;
 	if(!this.rasters[index]){
 		console.error("There's no item at update index "+index, this.rasters.length)

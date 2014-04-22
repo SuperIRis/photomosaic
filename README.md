@@ -17,7 +17,7 @@ It uses canvas and PaperJS, so stick to modern browsers :)
 
 ```
 
-If the URLs array you sent can't be loaded, they will not be included in the mosaic but it will still function with the remaining images.
+If an URL in the array you sent can't be loaded, they will not be included in the mosaic but it will still function with the remaining images.
 
 There is an example.html that you can check for functionality. The images are from Google, I hope I don't aggravate anyone by using them for example purposes; if I do tell me and I will take them down.
 
